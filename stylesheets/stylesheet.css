@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    background: url(../images/background_frame.png) repeat-x #F9F9F9;
+    font-family: oswald !important;
+    height:100% !important;
+
+}
+html  {
+    height:100% !important;   
+}
+
+/************* quickfixes start *************/
+.voffset  { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 80px; }
+.voffset8 { margin-top: 100px; }
+.voffset9 { margin-top: 150px; }
+.bg-white {
+    background-color: #ffffff !important;
+    min-height:500px;
+    background-image:url('../images/tubingen_baum_no_bg20.png');
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+
+/************* quickfixes end *************/
+
+/************* navbar *************/
+
+
+/************* navbar *************/
+/************* login *************/
+
+@media (min-width: 1200px) {
+    #login_form, .inner_container {
+        width:1140px;
+        padding-top:50px;
+        padding-bottom:100px;
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+    }
+}
+    @media (min-width: 979px) and (max-width: 1200px) {
+    #login_form, .inner_container {
+        width:940px;
+        padding-top:50px;
+        padding-bottom:100px;
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+	} 
+}
+
+
+
+/************* login *************/
+
+
+
+/************* general *************/
+#wrap { /* for responsivty of footer */
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -90px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+.tubingen_bg_color:hover {
+    background-color:#9a1830 !important;
+    color:#fff;
+}
+.transparent_border {
+    border-color:transparent !important;
+}
+li.no_list_bullet {  list-style-type: none;}
+.correct_choice { background-color:#BCED91; padding:3px; }
+.wrong_choice { background-color:#ee765d ; padding:3px; }
+/************* create your style page end *************/
+/************* footer start *************/
+.general-information {
+	
+    float: left;
+    height:60x;
+    bottom: 0px;
+	margin-top: 42px;
+	padding: 18px 0 30px 0;
+	width: 100%;
+    background-color: #ffffff;
+	border-top: 1px solid #7f7f7f;
+}
+
+#footer {
+    float: left;
+    height:30x;
+	margin-top: 42px;
+	padding: 15px 0 0 0;
+	width: 100%;
+    background-color: #ffffff;
+	border-top: 1px solid #7f7f7f;
+    
+}
+.term-policy, .general-information {
+    font-family: oswald !important;
+	font: normal 12px/20px oswald-regular;
+	color: #777;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.term-policy a {
+	text-decoration: none;
+    font-family: oswald !important;
+	font: normal 12px/20px oswald-regular;
+	color: #777;
+}
+.term-policy li {
+	float:left;
+	padding: 0 10px 0 8px;
+margin: 0 -4px 0 0;
+background: url("http://assets.sportsgirl.com.au/skin/frontend/enterprise/sportsgirl/images/footer-separator.jpg") no-repeat right 3px;
+}
+/************* footer end *************/
