@@ -6,7 +6,9 @@ ignore.php
 */application/logs/log-*.php
 */application/logs/!index.html
 */application/config/config.php
+*/application/config/database.php
 application/config/config.php
+application/config/database.php
 
 # Windows image file caches
 Thumbs.db
